@@ -1,0 +1,21 @@
+{
+  "name": "neural-nets-test",
+  "version": "0.0.1",
+  "description": "test",
+  "author": "Cristian Cotoi <cristian.cotoi@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node --use_strict start.js",
+    "start-bazi": "node --use_strict start-bazi.js",
+    "start-gen-bazi": "node --use_strict start-gen-bazi-test-data.js"
+  },
+  "analyze": true,
+  "main": "start.js",
+  "dependencies": {
+    "jsonfile": "^2.4.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "synaptic": "^1.0.8"
+  }
+}
